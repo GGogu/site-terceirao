@@ -7,9 +7,10 @@
         transition: background-color 0.3s ease; 
         background-color: #eee; 
     }
-    .bodyh:hover{
-    background-color: #0fdbea; 
-        
-    }
+
+    .body:hover{
+        background-color: #0fdbea;
+     }
+    
 
        
