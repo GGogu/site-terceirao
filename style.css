@@ -13,7 +13,7 @@ h1 {
 
 /* Estilizando o título quando passa o mouse */
 h1:hover {
-    color: rgb(255, 0, 0); /* Vermelho */
+    color: rgb(115, 0, 255); /* Vermelho */
 }
 
 /* Estilizando a sombra quando passa o mouse na tela */
