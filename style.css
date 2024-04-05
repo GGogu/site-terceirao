@@ -1,16 +1,39 @@
-    .body
-    {  width: 100%;
-        height: 100vh;
-        display: flex;
+/* Estilizando o body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: black;
+}
 
-      
-        transition: background-color 0.3s ease; 
-        background-color: #6c07e9; 
-    }
+/* Estilizando o título */
+h1 {
+    font-size: 48px;
+    color: rgb(255, 255, 255); /* Branco */
+}
 
-    .body:hover{
-        background-color: #0fdbea;
-     }
-    
+/* Estilizando o título quando passa o mouse */
+h1:hover {
+    color: rgb(255, 0, 0); /* Vermelho */
+}
 
-       
+/* Estilizando a sombra quando passa o mouse na tela */
+body:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); /* Sombra branca */
+}
+
+/* Estilizando os botões */
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(0, 255, 0); /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilizando os botões quando passa o mouse */
+button:hover {
+    background-color: rgb(0, 150, 0); /* Verde escuro */
+    cursor: pointer;
+}
